@@ -1,0 +1,24 @@
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+ }
+ 
+ .carousel-caption {
+  bottom: 243px;
+ }
+ 
+ @media (max-width: 768px) {
+  .carousel-caption h5 {
+      font-size: 28px!important;
+  }
+ }
+ .carousel-caption h5 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 2px;
+ }
